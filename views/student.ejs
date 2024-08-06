@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+
+<body>
+    <h1>Student Details</h1>
+    <form action="/student" method="POST">
+        <label>Name: <input type="text" name="name" required></label><br>
+        <label>Roll No: <input type="text" name="rollno" required></label><br>
+        <label>Class: <input type="text" name="class" required></label><br>
+        <label>Section: <input type="text" name="section" required></label><br>
+        <label>Semester: <input type="text" name="semester" required></label><br>
+        <label>CGPA: <input type="number" step="0.01" name="cgpa" required></label><br>
+        <label>Attendance %: <input type="number" step="0.01" name="attendance" required></label><br>
+        <label>Place: <input type="text" name="place" required></label><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
